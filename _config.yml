@@ -1,9 +1,9 @@
-title:            Site Title
-description:      Site description for the metas.
-logo:             omikron.png
+title:            Blog
+description:      Coding. Music.
+logo:             mountain.png
 disqus_shortname: https-chunminchang-github-io-hmfaysal-omega-theme
 # Assign a default image for your site's header and footer
-default_bg:       default_bg.jpg
+default_bg:       background/taiwan_1.jpg
 search:           true
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
@@ -42,20 +42,20 @@ jekyll-archives:
 
 # Owner/author information
 author:
-  name:           Your Name
-  picture:        your-photo.jpg
-  email:          your@email.com
+  name:           Chun-Min Chang
+  picture:        chunmin.jpg
+  email:          chun.m.chang@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Some Details about yourself
+  description:    Hello World
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   facebook:
-  github:
+  github:         "https://github.com/ChunMinChang"
   linkedin:
   instagram:
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/123123123123132123"
+  google_plus:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -70,8 +70,10 @@ links:
     icon: home
   - title: Categories
     url: /categories
+    icon: sitemap #folder-open
   - title: Tags
     url: /tags
+    icon: tags
 
 # Sitemap configuration
 # https://github.com/kinnetica/jekyll-plugins
@@ -85,11 +87,11 @@ sitemap:
         - "/index.html"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Taipei
 future:      true
 markdown:    kramdown
 highlighter: rouge
-paginate:    6
+paginate:    3
 paginate_path: "/blog/:num/"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks

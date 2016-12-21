@@ -478,7 +478,7 @@ blockquote:before {
 }
 
 .overlay:after {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #masthead {
@@ -1436,7 +1436,7 @@ figcaption {
 }
 
 .mfp-preloader a:hover {
-  color: white;
+  color: #e6e6e6;
 }
 
 .mfp-s-ready .mfp-preloader {
@@ -1932,6 +1932,7 @@ pre {
   overflow-x: auto;
   border: 1px solid #999;
   page-break-inside: avoid;
+  color: white;
 }
 
 /* menu button */
@@ -2021,12 +2022,12 @@ a#slide:hover {
 }
 
 a#slide:after {
-  content: "F";
+  /*content: "≡";*/
 }
 
 a#slide.slide:after {
   position: absolute;
-  content: "X";
+  /*content: "X";*/
   top: 11px;
   left: 50%;
   width: 40px;

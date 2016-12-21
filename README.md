@@ -2,9 +2,9 @@
 
 Project name:	HMFAYSAL OMEGA THEME  
 Author:	Hossain Mohd Faysal  
-Project type:	The Coolest Theme for Jekyll 
-License:	MIT License 
-  
+Project type:	The Coolest Theme for Jekyll
+License:	MIT License
+
 HMFAYSAL OMEGA is a minimalist, beautiful, responsive theme for Jekyll designed for engineers as well as writers who want their content to take front and center. This theme elegantly wraps each page and post with featured images complementing the content. It was built -- by Engineer slash Mathematician [Hossain Mohd Faysal](http://alum.mit.edu/www/hmfaysal/).
 
 The theme features:
@@ -17,7 +17,7 @@ The theme features:
 * Plugin-free/Github Pages Deployment Ready
 * Read time Calculator: Calculation of post read-time based on word count (Via Liquid Tags instead of a plugin)
 * Complex pagination script if you decide to turn pagination on
-* CSS3 transitions for better performance 
+* CSS3 transitions for better performance
 * Ability to turn of animations in _config.yml
 * Readable typography to make your words shine
 * Disqus comments if you choose to enable
@@ -103,7 +103,7 @@ jekyll-archives:
 # Owner/author information
 author:
   name:           Your Name
-  picture:        your-photo.jpg
+  picture:        chunmin.jpg
   email:          your@email.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Some Details about yourself
@@ -172,7 +172,7 @@ kramdown:
 
 ## Post Front Matter YAML
 
-HMFAYSAL OMEGA uses variable post templates for articles, quotation, video, photo and status updates. 
+HMFAYSAL OMEGA uses variable post templates for articles, quotation, video, photo and status updates.
 
 A new blog post should have the following structure to utilise the themes functions
 
@@ -185,7 +185,7 @@ headline: Some headline				# Will appear in bold letters on top of the post
 modified: YYYY-MM-DD				# Date
 category: personal
 tags: []
-image: 
+image:
   feature: some-image.jpg
 comments: true
 mathjax:
@@ -204,7 +204,7 @@ headline: Some headline       # Will appear in bold letters on top of the post
 modified: YYYY-MM-DD        # Date
 category: personal
 tags: []
-image: 
+image:
   feature: some-image.jpg
 comments: true
 mathjax:
@@ -223,7 +223,7 @@ headline: Some headline       # Will appear in bold letters on top of the post
 modified: YYYY-MM-DD        # Date
 category: personal
 tags: []
-image: 
+image:
   feature: some-image.jpg
 comments: true
 mathjax:
@@ -242,7 +242,7 @@ headline: Some headline       # Will appear in bold letters on top of the post
 modified: YYYY-MM-DD        # Date
 category: personal
 tags: []
-image: 
+image:
   feature: some-image.jpg
 comments: true
 mathjax:
@@ -262,7 +262,7 @@ headline: Some headline       # Will appear in bold letters on top of the post
 modified: YYYY-MM-DD        # Date
 category: personal
 tags: []
-image: 
+image:
   feature: some-image2.jpg
 comments: true
 mathjax:

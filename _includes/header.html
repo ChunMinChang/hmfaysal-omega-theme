@@ -14,7 +14,9 @@
 {% endif %}
 
 <div id="fade"></div>
-<a id="slide" class="animated fade"></a>
+<a id="slide" class="animated fade">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+</a>
 <aside id="sidebar">
     <nav id="navigation">
         <h2>MENU</h2>
@@ -22,7 +24,7 @@
         <ul> {% for link in site.links %}
             <li>{% if link.external %}
                 <a href="{{ link.url }}">{{ link.title }}</a> {% else %}
-                <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a> {% endif %} </li>
+                <a href="{{ site.url }}{{ link.url }}"><!-- {% if link.icon %}<i class="fa fa-{{ link.icon }}"></i>&nbsp;{% endif %}-->{{ link.title }}</a> {% endif %} </li>
             {% endfor %}
             <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss"></i> Feed</a></li>
         </ul>
@@ -43,8 +45,8 @@
 {% if site.search %}
     <button class="menu-button animated fade dosearch">
         <i class="fa fa-search"></i>
-    </button> 
-{% endif %} 
+    </button>
+{% endif %}
 
 {% if page.headline %}
     <div class="inner">
@@ -87,7 +89,7 @@
             <path d="M48 52 L50 49 L52 52 L48 52" fill="rgba(255,255,255, 1)"></path>
         </svg>
     </div>
-{% else %} 
+{% else %}
     {% if site.triangleheader %}
     <div class="decor-wrapper">
         <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
